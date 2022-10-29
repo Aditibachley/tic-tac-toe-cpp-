@@ -1,5 +1,6 @@
 //BY ADITI BACHLEY
 #include<iostream>
+#include<conio.h>
 using namespace std;
 void display(char blocks[][3]){
     cout<<"   |   |   "<<endl;
@@ -150,6 +151,7 @@ int main(){
     }
     if(check==0)
     cout<<"The match is a draw "<<endl;
+    getch();
     return 0;
 
 }
